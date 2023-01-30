@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
+
+body {
+  background: #000000;
+  color: #ffffff;
+  font-family: "Aboreto", cursive;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 1rem;
+  gap: 1rem;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
